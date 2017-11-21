@@ -1,5 +1,6 @@
 import React from 'react';
-//import foto from '../../images/foto.jpg';
+import fotoo from '../../images/foto.jpg';
+import logo from '../../images/logo.svg';
 import './HeadSidebar.scss';
 
 class HeadSidebar extends React.Component{
@@ -7,7 +8,9 @@ class HeadSidebar extends React.Component{
 
 		return(
 			<div className="Sb">
-				<h1>Sidebar naglowekk</h1>
+				<img src={fotoo} alt="personal foto" />
+				<h1>Truchan <strong>Przemysław </strong></h1>
+				<h4>WebDeveloper</h4>
 			</div>
 		);
 	}

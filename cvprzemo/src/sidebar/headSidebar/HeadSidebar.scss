@@ -1,3 +1,32 @@
 .Sb {
 	background: #fff;
+	padding: 15px;
+
+	img {
+		max-width: 100%;
+	}
+
+	h1 {
+		font-size: 2vw;
+		margin: 10px 0 0 0;
+		text-align: right;
+	}
+
+	h1 strong {
+		font-weight: 100;
+	}
+
+	h4 {
+		font-weight: 200;
+		color: #232526;
+		text-align: right;
+		margin: 5px 0 15px 0;
+	}
+
+	.App-logo {
+	  animation: App-logo-spin infinite 20s linear;
+	  height: 40px;
+	}
+
+
 }

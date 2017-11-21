@@ -98,6 +98,7 @@ module.exports = {
       new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
     ],
   },
+
   module: {
     strictExportPresence: true,
     rules: [
@@ -218,6 +219,9 @@ module.exports = {
       // ** STOP ** Are you adding a new loader?
       // Make sure to add the new loader(s) before the "file" loader.
     ],
+		loaders: [
+			{ test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' }
+		],
   },
   plugins: [
     // Makes some environment variables available in index.html.
@@ -253,6 +257,7 @@ module.exports = {
     // You can remove this if you don't use Moment.js:
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
   ],
+
   // Some libraries import Node modules but don't use them in the browser.
   // Tell Webpack to provide empty mocks for them so importing them works.
   node: {
