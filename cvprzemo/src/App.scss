@@ -1,6 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
+	background: #ECF1F4;
 }
 .App {
   text-align: center;
@@ -43,3 +44,12 @@ body {
 }
 
 .box { @include border-radius(10px); }
+
+.BgSidebar {
+	background: #fff;
+}
+
+.Personal-foto {
+	max-height: 100px;
+	@include border-radius(50px);
+}
