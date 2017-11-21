@@ -1,7 +1,5 @@
+@import "../../common/colors/_colors.scss";
 .Sb {
-	background: #fff;
-	padding: 15px;
-
 	img {
 		max-width: 100%;
 	}
@@ -18,7 +16,7 @@
 
 	h4 {
 		font-weight: 200;
-		color: #232526;
+		color: $smooth-black;
 		text-align: right;
 		margin: 5px 0 15px 0;
 	}
