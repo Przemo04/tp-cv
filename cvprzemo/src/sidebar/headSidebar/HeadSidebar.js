@@ -1,6 +1,6 @@
 import React from 'react';
 import fotoo from '../../images/foto.jpg';
-import logo from '../../images/logo.svg';
+
 import './HeadSidebar.scss';
 
 class HeadSidebar extends React.Component{

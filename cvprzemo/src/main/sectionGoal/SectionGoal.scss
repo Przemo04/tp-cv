@@ -1,0 +1,30 @@
+
+.SectionGoal {
+	background: url('../../images/4.png');
+	background-size: cover;
+	min-height: 600px;
+	padding: 30px;
+	position: relative;
+
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+		height: 70px;
+		position: absolute;
+		bottom: 180px;
+		perspective: 280px;
+		transform-style: preserve-3d;
+		transform: rotateX(-40deg) rotateY(32deg);
+		transform: rotateX( 90deg);
+		left: 270px;
+	}
+
+	p {
+		width: 60%;
+		font-size: 1.1vw;
+		text-align: justify;
+		line-height: 21px;
+		font-weight: lighter;
+		color: #a6aaad;
+	}
+
+}

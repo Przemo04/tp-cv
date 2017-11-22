@@ -3,6 +3,7 @@ import './App.scss';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import Sidebar from './sidebar';
+import Main from './main';
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
 
 						</Col>
 						<Col xs={12} sm={9} md={9} lg={9} >
-							Hello, world2!
+							<Main />
 
 						</Col>
 					</Row>
