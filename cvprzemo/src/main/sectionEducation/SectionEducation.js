@@ -11,7 +11,7 @@ class SectionEducation extends React.Component{
 			<div className="sectionEducation">
 				<HeadSection name="Wykształcenie" />
 				<EducationBox date="2008-2012" school="Zespół Szkół Technicznych w Suwałkach" spec="kierunek: Elektronika"/>
-				<EducationBox date="2008-2012" school="Zespół Szkół Technicznych w Suwałkach" spec="kierunek: Elektronika"/>
+				<EducationBox date="2012-2017" school="Uniwersytet w Białymstoku, Informatyka magisterskie" spec="specjalizacja: Technologie mobilne i intenretowe"/>
 			</div>
 		);
 	}
