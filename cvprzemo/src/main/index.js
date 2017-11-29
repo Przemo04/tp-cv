@@ -4,6 +4,7 @@ import SectionGoal from './sectionGoal/SectionGoal.js';
 import SectionEducation from './sectionEducation/SectionEducation.js';
 import SectionExperience from './sectionExperience/SectionExperience.js';
 import SectionSkills from './sectionSkills/SectionSkills.js';
+import SectionAdditional from './sectionAdditional/SectionAdditional.js';
 
 import './Main.scss';
 
@@ -16,7 +17,7 @@ class Main extends React.Component{
 				<SectionEducation />
 				<SectionExperience />
 				<SectionSkills />
-
+				<SectionAdditional />
 			</div>
 		);
 	}

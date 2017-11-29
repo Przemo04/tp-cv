@@ -4,11 +4,15 @@ import './SectionExperience.scss';
 import HeadSection from '../../common/headSection/HeadSection.js';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
 class SectionExperience extends React.Component{
+
+	componentWillMount() {
+		//document.body.style.backgroundColor = "blue";
+	}
 	render(){
 
 		return(
 			<div className="SectionExperience">
-				<HeadSection name="Wykształcenie" />
+				<HeadSection name="Doświadczenie" />
 					<Timeline>
 									<TimelineEvent title="Future Trip Sp. z o.o."
 																 createdAt="11/2016 - 04/2017"

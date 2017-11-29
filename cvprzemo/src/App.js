@@ -4,6 +4,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import Sidebar from './sidebar';
 import Main from './main';
+import Parralax from './parralax';
 
 class App extends Component {
   render() {
@@ -14,14 +15,13 @@ class App extends Component {
 					<Row>
 						<Col xs={12} sm={3} md={3} lg={3} >
 							<Sidebar />
-
-							Hello, world!
-
 						</Col>
 						<Col xs={12} sm={9} md={9} lg={9} >
 							<Main />
-
 						</Col>
+					</Row>
+					<Row>
+							<Parralax />
 					</Row>
 				</Grid>
       </div>

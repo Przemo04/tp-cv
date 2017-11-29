@@ -35,6 +35,10 @@ class SectionSkills extends React.Component{
 					<Skill level="Basic" name="Webpack"></Skill>
 					<Skill level="Basic" name="REST"></Skill>
 					<Skill level="Basic" name="Nginx"></Skill>
+					<Skill level="Medium" name="Linux"></Skill>
+					<Skill level="Basic" name="Jira"></Skill>
+					<Skill level="Medium" name="Bootstrap"></Skill>
+					<Skill level="Basic" name="FlexBox"></Skill>
 
 				</div>
 
